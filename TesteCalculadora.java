@@ -12,7 +12,7 @@ public class TesteCalculadora {
         var a2 = Integer.parseInt(JOptionPane.showInputDialog("Digite o segundo número"));
 
         //3. Somar os dois inteiros utilizando o método somar da calculdora
-        var resultado = calc.somar(a1, a2);
+        var resultado = calc.somar(2, 3);
         
         //4. Exibir o resultado
         JOptionPane.showMessageDialog(null, "Resultado da soma: " + resultado);
