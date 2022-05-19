@@ -24,7 +24,7 @@ public class Calculadora{
     int somar (String s1, String s2){
         return Integer.parseInt(s1) + Integer.parseInt(s2);
     }
-    //implelementar um método somar que viabilize a compilação da linha 19 do outro lado
+    //impleementar um método somar que viabilize a compilação da linha 19 do outro lado
     int somar (String s, int a){
         return Integer.parseInt(s) + a;
     }
@@ -33,7 +33,7 @@ public class Calculadora{
     int somar (int a, String s){
         //reescrever a linha abaixo
         //não vale usar o operador +
-        
+        return somar (s, a);
         //return Integer.parseInt(s) + a;
     }
 }
